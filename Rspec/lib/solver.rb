@@ -1,11 +1,11 @@
 class Solver
-  def factorial(n)
-    if n < 0
+  def factorial(num)
+    if num.negative?
       raise ArgumentError, 'Factorial is not defined for negative numbers'
-    elsif n.zero?
+    elsif num.zero?
       1
     else
-      (1..n).reduce(:*)
+      (1..num).reduce(:*)
     end
   end
 end
