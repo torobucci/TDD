@@ -9,7 +9,7 @@ class Solver
     end
   end
 
-  def reverse(str)
-    str.reverse
+  def reverse(string)
+    string.reverse
   end
 end
